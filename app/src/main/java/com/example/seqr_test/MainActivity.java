@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     재현 : app/java/com.example.seqr_test/SubActivityMake, app/res/layout/activity_make
     현진 : app/java/com.example.seqr_test/SubActivityTake, app/res/layout/activity_take
     송이 : app/java/com.example.seqr_test/SubActivityReport, app/res/layout/activity_report
-     */
+     */ 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

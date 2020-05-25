@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SeQR_test</string>
+    <string name="title_main">SeQR</string>
+    <string name="btn_back">BACK</string>
+    <string name="btn_make">MAKE</string>
+    <string name="btn_take">TAKE</string>
+    <string name="btn_report">REPORT</string>
+</resources>

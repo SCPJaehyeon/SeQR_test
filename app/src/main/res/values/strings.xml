@@ -5,4 +5,7 @@
     <string name="btn_make">MAKE</string>
     <string name="btn_take">TAKE</string>
     <string name="btn_report">REPORT</string>
+
+    <string name="btn_makeqrcode">Make QR Code</string>
+    <string name="text_inputurl">Input URL</string>
 </resources>

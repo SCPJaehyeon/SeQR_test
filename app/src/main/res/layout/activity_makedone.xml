@@ -29,32 +29,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/btn_makeqrcode"
+    <ImageView
+        android:id="@+id/view_qr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="MakeQr"
-        android:text="@string/btn_makeqrcode"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.452" />
-
-    <EditText
-        android:id="@+id/input_url"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/text_inputurl"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356"
-        android:autofillHints=""
-        tools:ignore="LabelFor,TextFields" />
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="?android:attr/listChoiceIndicatorMultiple"
+        android:contentDescription="TODO" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

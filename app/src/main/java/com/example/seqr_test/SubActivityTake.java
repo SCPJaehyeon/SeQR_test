@@ -65,7 +65,6 @@ public class SubActivityTake extends AppCompatActivity {
     /*
     QR코드 링크 접속 Connection버튼
      */
-
     public void btn3Click(View view) {
 
         String url = "http://";
